@@ -1,0 +1,128 @@
+
+@media only screen and (min-width: 600px){
+    .fifth_section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .fifth_section_img{
+        flex: 50%;
+        padding-left: 3px;
+    }
+
+    .cards_section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 1.3rem;
+    }
+
+    .cards_information{
+        margin: 0.8rem 0.5rem;
+        flex: 40%;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+    html, body{
+        font-size: 22px;
+    }
+
+    .second_section{
+        padding: 2.5rem 0rem 6rem 0rem;
+        margin-top: -5px;
+    }
+
+    .third_section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgb(202, 216, 216);
+    }
+    
+    .company_service_section{
+        flex: 1;
+        border-left: 1px solid rgb(202, 216, 216);
+    }
+
+    .fourth_section{
+        flex-direction: row;
+        padding: 1rem 0rem;
+        /* flex-wrap: wrap; */
+    }
+
+    .fourth_section_text{
+        align-self: center;
+        margin-top: 1rem;
+    }
+
+    .testimonial_section{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 5rem 1rem;
+    }
+
+    .tetimonial_client_details{
+        margin-right: 3rem;
+    }
+    
+}
+
+@media only screen and (min-width: 900px){
+    .navbar_menu, .navbar_hamburger{
+        display: none;
+    }
+
+    .navbar_responsive{
+        display: flex;
+    }
+
+    .navbar_responsive_text{
+        font-size: 0.7rem;
+        font-weight: 300;
+        transition: all 0.5s ease;
+        margin-right: 1rem;
+    }
+
+    .navbar_responsive_text:hover{
+        color: #944A9D;
+    }    
+
+    .second_section{
+        margin-top: -5.5px;
+    }
+
+    .testimonial_section{
+        padding: 0rem 3rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html, body{
+        font-size: 24px;
+    }
+
+    .second_section{
+        margin-top: -6px;
+    }
+
+    .bussiness_details_section{
+        flex: 20%;
+    }
+
+    .company_service_section{
+        flex: 20%;
+    }
+
+    .fifth_section_img{
+        flex: 33%;
+        padding-left: 3px;
+    }
+
+    .cards_information{
+        margin: 0.8rem 0.5rem;
+        flex: 20%;
+    }
+}

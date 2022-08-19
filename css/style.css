@@ -1,0 +1,359 @@
+html, body{
+    background-color: #ffffff;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* CSS for Nav Bar */
+
+.navbar_responsive{
+    display: none;
+}
+
+.navbar_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_logo{
+    max-width: 163px;
+    height: 100%;
+}
+
+.navbar_details{
+    display: flex;   
+    align-items: center;
+}
+
+.navbar_menu{
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #453c82;
+    padding-right: 0.5rem;
+}
+
+.navbar_hamburger{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #453c82;
+    padding-right: 0.5rem;
+}
+
+/* Second Section CSS */
+
+.second_section{
+    background: url(../images/spigot-icon-mini.svg);
+    background-position: 50%;
+    background-size: 36px;
+    background-color: #242433;
+    text-align: center;
+    margin-top: -4.4px;
+    padding-bottom: 2rem;
+    border-bottom: 10px solid #944A9D;;
+}
+
+.second_section img{
+    max-width: 200px;
+    margin-top: 1.8rem;
+}
+
+.second_section p{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Third Section CSS*/
+
+
+.third_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.bussiness_details_section{
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeef3;
+    padding: 3rem 1rem;
+}
+
+.bussiness_details_heading{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #3b3b4f;
+}
+
+.bussiness_details_text{
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #231d29;
+    margin: 0.5rem 0;
+}
+
+.bussiness_details_button{
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.4rem 0.3rem;
+    font-weight: 600;
+    border-radius: 0;
+    color: #453c82;
+    background-color: transparent;
+    border: 3px solid #453c82;
+    display: inline-block;
+    max-width: 250px;
+    transition: all 0.5s ease;
+    margin-top: 0.3rem;
+}
+
+.bussiness_details_button:hover{
+    color: white;
+    background-color: #453c82 ;
+}
+
+.company_service_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 0rem;
+    border-bottom: 1px solid rgb(202, 216, 216);
+}
+
+.company_service_img_section{
+    max-width: 100px;
+}
+
+.company_service_text_section{
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+/* Fourth Section */
+
+.fourth_section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.fourth_section_heading{
+    padding: 2rem 1rem 0rem 1rem;
+}
+
+.fourth_section_heading h5{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #3b3b4f;
+}
+
+.fourth_section_text{
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #231d29;
+    padding: 0 1rem;
+}
+
+.fourth_section_text p{
+    padding: 1rem 0;
+}
+
+/* Fifth Section */
+
+.fifth_section{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.fifth_section_img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Testimonial Section */
+
+.testimonial_section{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+}
+
+.tetimonial_text{
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #595977;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.testimonial_client_img{
+    display: flex;
+}
+
+.testimonial_client_img img{
+    max-width: 50px;
+}
+
+.testimonial_client_img span{
+    align-self: flex-end;
+    padding-bottom: 0.8rem;
+    padding-left: 0.7rem;
+    color: #595977;
+    border-bottom: 3px solid #eeeef3;
+    width: 90%;
+}
+
+.tetimonial_client_details p{
+    color: #595977;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin: 1rem 0rem 1.7rem 0rem;
+}
+
+/* Cards Section CSS */
+
+.cards_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards_information{
+    margin: 0rem 1rem 1.5rem 1rem;
+    border: 1px solid #ded9e2;;
+    border-radius: 3px;
+}
+
+.cards_information img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.cards_information h5{
+    font-size: 1rem;
+    color: #3b3b4f;
+    font-weight: 700;
+    padding: 0.8rem 0.8rem;
+}
+
+.cards_information p{
+    font-size: 0.7rem;
+    color: #231d29;
+    font-weight: 300;
+    padding: 0rem 0.8rem 0rem 0.8rem;
+}
+
+.cards_information hr{
+    margin: 0.25rem 0rem;
+}
+
+.cards_bottom_design{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.8rem;
+}
+
+.cards_bottom_design a{
+    font-size: 0.7rem;
+    color: #2da3ed;
+}
+
+.cards_bottom_design span{
+    font-size: 0.6rem;
+    color: #231d29;
+    align-self: center;
+}
+
+/* Footer Section CSS */
+
+.footer_map_btn_section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3b3b4f;
+}
+
+.footer_img{
+    flex: 1;
+}
+
+.footer_img iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.footer_btn{
+    padding: 1.2rem 1rem;
+    /* padding: 0; */
+    align-self: center;
+}
+
+.footer_btn button{
+    font-size: 0.7rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer_btn button:hover{
+    color: #3b3b4f;
+    background-color: #ffffff;
+}
+
+.footer_social_media_section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #231d29;
+}
+
+.footer_links p{
+    margin: 0.5rem 0rem 0.7rem 1rem;
+}
+
+.footer_text{
+    color: #9d9daa;
+    font-size: 0.5rem;
+    transition: all 0.5s ease;
+}
+
+.footer_text:hover{
+    color: #944A9D;
+}
+
+.footer_icons{
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.footer_icons i{
+    font-size: 1.2rem;
+    color: #595977;
+    transition: all 0.5s ease;
+}
+
+.footer_icons i:hover{
+    color: #944A9D;
+}
+
